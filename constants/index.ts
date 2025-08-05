@@ -235,6 +235,8 @@ export const prepareInstructions = ({jobTitle, jobDescription}: { jobTitle: stri
       If provided, take the job description into consideration.
       The job title is: ${jobTitle}
       The job description is: ${jobDescription}
+      Mainly take into account the following aspects:
+      is the given resume eligible for the following job title and description?
       Provide the feedback using the following format:
       ${AIResponseFormat}
       Return the analysis as an JSON object, without any other text and without the backticks.
